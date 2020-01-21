@@ -3,6 +3,6 @@ body{
     
 
 }
-.container-1{
-    background-color: orchid;
+.height-header{
+    height:100vh;
 }
