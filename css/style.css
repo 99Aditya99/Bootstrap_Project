@@ -1,7 +1,8 @@
 body{
     font-family: 'Lobster', cursive;
-    color:lightblue;
+    
+
 }
-/* #icon{
-    color: black;
-} */
+.container-1{
+    background-color: orchid;
+}
