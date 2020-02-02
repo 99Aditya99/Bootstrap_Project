@@ -7,7 +7,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/53360adb7c.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <!-- custom csss  -->
@@ -16,48 +17,194 @@
 </head>
 <body>
     
-     <!-- <header>
-         <div class="container bg-warning">
-             <div class="row height-header align-items-center justify-content-center ">
-                 <div class="col-9 ">
-                    <h1 class="text-capitalize text-danger">My First Bootstrap <span class="text-white">Website</span> </h1>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta dignissimos alias repellat aliquam culpa harum nesciunt esse ab provident.</p>
-                    <button class="btn btn-outline-primary m-1 p-2">Press Here</button>
-                    <button class="btn btn-success m-1 p-2">Press Here</button>
-                 </div>
-             </div>
-         </div>
-     </header> -->
-     
 
-    <div class="container">
-        <div class="div" id="header">
-            <p>header</p>
+    <!-- header starts  -->
+     <header class="header bg-dark">
+        <div class="container">
+            <div class="row header_height align-content-center">
+                <div class="col">
+                    <span class="display-4 text-danger font-italic text-capitalize">my first bootstrap </span>
+                    <span class="display-4 text-capitalize text-white">website</span>
+                    <p class="text-light my-2 pl-2 w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa enim voluptates porro eius? Accusantium quia nemo expedita vero numquam aliquid.</p>
+                    <button class="btn btn-outline-primary my-2">Press Here</button>
+                    <button class="btn btn-outline-success my-2 mx-2">Press Here</button>
+                </div>
+            </div>
         </div>
-        <div class="div" id="nav">
-           <p>nav</p>
-       </div>
-       <div class="div" id="left_sidebar">
-           <p>left_sidebar</p>
-       </div>
-       <div class="div" id="main_content">
-           <p>main_content</p>
-           <div id="gallary1">
-                gallary1
-           </div>
-           <div id="gallary2">
-             gallary2
-           </div>
+     </header>
 
-       </div>
-       <div class="div" id="footer">
-           <p>footer</p>
-           
-       </div>
-    </div>
+     <!-- end of header  -->
 
-    
+     <!-- starts skills -->
+     <section class="skills">
+
+         <div class="container">
+                <!-- heading part starts  -->
+                <div class="row ">
+                    <div class="col text-center">
+                        <h1 class="display-3">skills</h1>
+                        <div class="underline mx-auto"></div>
+                        <p class="text-muted my-2">Lorem ipsum dolor sit amet.</p class="">
+                    </div>
+                </div>
+                <!-- heading part ends  -->
+
+                <!-- icon starts  -->
+                <div class="row my-5">
+                    <div class="col-sm-12 col-lg-3 col-md-6 text-center my-3">
+                        <i class="fab fa-bootstrap fa-7x"></i>
+                        <h1>Bootstrap</h1>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit recusandae vel possimus natus provident beatae aut unde repudiandae corporis earum!</p>
+                        <button class="btn btn-outline-warning btn-block text-uppercase">press here</button>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-3 col-md-6 text-center my-3">
+                        <i class="fab fa-js-square fa-7x"></i>
+                        <h1>Js</h1>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit recusandae vel possimus natus provident beatae aut unde repudiandae corporis earum!</p>
+                        <button class="btn btn-outline-warning btn-block text-uppercase">press here</button>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-3 col-md-6 text-center my-3">
+                        <i class="fab fa-python fa-7x"></i>
+                        <h1>Python</h1>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit recusandae vel possimus natus provident beatae aut unde repudiandae corporis earum!</p>
+                        <button class="btn btn-outline-warning btn-block text-uppercase">press here</button>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-3 col-md-6 text-center my-3">
+                        <i class="fab fa-react fa-7x"></i>
+                        <h1 class="">React</h1>
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit recusandae vel possimus natus provident beatae aut unde repudiandae corporis earum!</p>
+                        <button class="btn btn-outline-warning btn-block text-uppercase">press here</button>
+                    </div>
+                </div>
+                <!-- icon ends   -->
+         </div>
+     </section>
+     <!-- end of skills -->
+
+ 
+
+     <!-- starts about   -->
+     <section class="about ">
+         <div class="container-fluid">
+            <div class="row " >
+                <!-- image section starts -->
+                <div class="col-lg-6 col-md-6 col-sm-12 about_image about_height ">
+                  
+                </div>
+                <!-- image sectopn ends -->
+   
+                <!-- text section starts -->
+                <div class="col-lg-6 col-md-6 col-sm-12 bg-info ">
+                 <!-- about typography starts -->
+                 <div class="row  justify-content-center ">
+                    <div class="col-12 text-center">
+                        <h1 class="display-3">about</h1>
+                        <div class="about_underline mx-auto"></div>
+                        <p class="text-muted my-2">Lorem ipsum dolor sit amet.</p class="">
+                    </div>
+
+                    <div class="col-12 d-flex  align-items-center ">
+                        <span class=""><i class="fas fa-check-circle fa-3x align-self-center"></i></span> 
+                        <p class="ml-4 text-white ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore praesentium iste! Quae sequi distinctio perspiciatis soluta possimus! Vitae, est.</p>
+
+                    </div>
+
+                    <div class="col-12 d-flex  align-items-center ">
+                        <span class=""><i class="fas fa-check-circle fa-3x align-self-center "></i></span> 
+                        <p class="ml-4 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore praesentium iste! Quae sequi distinctio perspiciatis soluta possimus! Vitae, est.</p>
+
+                    </div>
+
+                    <div class="col-12 d-flex  align-items-center">
+                        <span class=""><i class="fas fa-check-circle fa-3x "></i></span> 
+                        <p class="ml-4 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore praesentium iste! Quae sequi distinctio perspiciatis soluta possimus! Vitae, est.</p>
+
+                    </div>
+                    
+                 </div>
+               <!-- about typography ends -->  
+                </div>
+                <!-- text section ends -->
+            </div>
+         </div>
+     </section>
+     <!-- end of about  -->
+
      
+     <!-- team section starts -->
+     <section class="team">
+        <div class="container">
+               <!-- heading starts -->
+                <div class="row ">
+                    
+                    <div class="col text-center">
+                        <h1 class="display-3">teams</h1>
+                        <div class="underline mx-auto"></div>
+                        <p class="text-muted my-2">Lorem ipsum dolor sit amet.</p class="">
+                    </div>
+                </div>
+                <!-- heading ends -->
+                
+
+            <!-- cards start  -->
+             <div class="row  my-5 justify-content-center align-content-center">
+                <!-- card_1 starts -->
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center s">
+                    <h2>Card Image</h2>
+                    <p>Image at the top (card-img-top):</p>
+                    <div class="card" style="max-height:70%" >
+                        <img class="card-img-top card_image" src="./img/card3.png" alt="Card image"  >
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- card_1 ends -->
+
+                <!-- card_2 starts -->
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <h2>Card Image</h2>
+                    <p>Image at the top (card-img-top):</p>
+                    <div class="card" style="max-height:70%" >
+                      <img class="card-img-top card_image" src="./img/card1.png" alt="Card image" >
+                      <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                      </div>
+                    </div>
+                </div>
+                <!-- card_2 ends -->
+
+                <!-- card_3 starts -->
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center ">
+                    <h2>Card Image</h2>
+                    <p>Image at the top (card-img-top):</p>
+                    <div class="card" style="max-height:70%">
+                      <img class="card-img-top card_image" src="./img/card2.png" alt="Card image" >
+                      <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                      </div>
+                    </div>
+                </div>
+                <!-- card_3 ends -->
+            </div>
+            <!-- cards end  -->
+                
+        </div>
+
+     </section>
+     <!-- team section ends -->
+     
+
+
 
     <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
