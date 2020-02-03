@@ -37,9 +37,69 @@ body{
 .fas{
     color: yellow !important;
 }
+.card{
+    border: 0px ;
+}
 
 .card_image{
     margin:auto;
-    height:50%;
-    width:50%;
+    height:12rem;
+    width:14rem;
+}
+
+.carousel_height{
+    min-height:30vh;
+}
+/* .carousel_image_size{
+    min-height: 2rem;
+    min-width:2rem;
+} */
+
+.filler_height{
+    min-height:100vh;
+}
+
+.filler_background{
+    /* background:linear-gradient(to right,rgb(247, 175, 175,.5),rgb(236, 105, 105,.5), url("../img/filler_background.png")); */
+    background-image: url("../img/filler_background.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.blog_image{
+    height: 250px;
+    width: 100px;
+}
+
+.underline_contact{
+    margin: 0;
+    padding: 0;
+    border-bottom: 10px solid orangered;
+    width: 30%;
+}
+.user_icon{
+    color:red !important;
+}
+.contact_height{
+    min-height:150vh;
+}
+.review_image{
+    height: 250px;
+    width:320px;
+}
+
+.progress_height{
+    min-height:100vh;
+}
+.progress_background{
+    background-image: url("../img/progress_background.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pricing_height{
+    
 }
