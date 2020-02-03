@@ -101,5 +101,5 @@ body{
     background-attachment: fixed;
 }
 .pricing_height{
-    
+    min-height:70vh
 }
