@@ -13,9 +13,15 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <!-- custom csss  -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- jquery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="./js/main.js"></script>
     <title>Document</title>
 </head>
 <body>
+
+   
     
 
     <!-- header starts  -->
@@ -35,8 +41,67 @@
 
      <!-- end of header  -->
 
+
+      <!-- navbar section starts -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <button id="nav-btn" class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- start of navbar container -->
+        <div class="container">
+                    
+
+                    <!-- colapsed navbar links for small screen starts-->
+                    <div class="col collapse navbar-collapse text-center" id="navbarDiv">
+                        <ul class="navbar-nav mr-auto text-danger">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#skills">Skills <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#team">Team <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#carousel_secrion">Carousel <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#filler">Filler <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#blog">Blog <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#review">Review <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#progress">Progress <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#pricing">Pricing <span class="sr-only">(current)</span></a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <!-- colapsed navbar links for small screen ends -->
+
+             
+        </div>
+        <!-- end of navbar container -->
+      </nav>
+
+    <!-- navbar section ends -->
+
+
+
      <!-- starts skills -->
-     <section class="skills">
+     <section id="skills">
 
          <div class="container">
                 <!-- heading part starts  -->
@@ -87,7 +152,7 @@
  
 
      <!-- starts about   -->
-     <section class="about ">
+     <section id="about">
          <div class="container-fluid">
             <div class="row " >
                 <!-- image section starts -->
@@ -135,7 +200,7 @@
 
      
      <!-- team section starts -->
-     <section class="team">
+     <section id="team">
         <div class="container">
                <!-- heading starts -->
                 <div class="row ">
@@ -225,7 +290,7 @@
 
 
      <!-- carousel section starts -->
-     <section class="py-5 bg-primary ">
+     <section id="carousel_secrion" class=" py-5 bg-primary ">
         <div class="container">
                 <!--carousel heading part starts  -->
                 <div class="row ">
@@ -286,7 +351,7 @@
 
 
      <!-- filler section starts -->
-     <section class="filler">
+     <section id="filler">
          <div class="container filler_background">
              <div class="row filler_height align-content-center">
                  <div class="col-lg-8 col-md-8 mx-auto text-center">
@@ -301,7 +366,7 @@
 
 
     <!-- blog section starts   -->
-     <section class="blog">
+     <section id="blog">
          <div class="container-fluid bg-success">
              <!-- heading part starts  -->
              <div class="row ">
@@ -353,7 +418,7 @@
 
 
     <!-- contact sectopn starts -->
-    <section class="contact">
+    <section id="contact">
         <div class="container-fluid bg-warning contact_height">
             <!-- heading part starts  -->
             <div class="row ">
@@ -417,7 +482,7 @@
 
 
     <!-- review section starts -->
-    <section class="review">
+    <section id="review">
         <div class="container bg-danger py-3">
             <!-- heading part starts  -->
             <div class="row ">
@@ -458,7 +523,7 @@
 
 
     <!-- section progress starts -->
-    <section class="progress progress_height bg-dark">
+    <section id="progress" class="progress_height bg-dark">
         <div class="container-fluid progress_background ">
             <!-- heading part starts  -->
             <div class="row ">
@@ -508,7 +573,7 @@
 
 
     <!-- pricing starts -->
-    <section class="pricing pricing_height">
+    <section id="pricing" class=" pricing_height">
         <div class="container-fluid bg-light">
             <!-- heading part starts  -->
             <div class="row ">
@@ -588,7 +653,7 @@
 
 
     <!-- section footer starts -->
-    <section class="footer">
+    <section id="footer">
         <div class="container-fluid bg-primary">
             <!-- heading part starts  -->
             <div class="row py-5  ">
